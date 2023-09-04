@@ -1,0 +1,21 @@
+{
+  "name": "node-steam-api",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "Node Client wrapper for Steam API",
+  "main": "index.js",
+  "keywords": [
+    "steam",
+    "steamapi",
+    "steam community",
+    "api"
+  ],
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "David Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
