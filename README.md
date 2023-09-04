@@ -20,6 +20,21 @@ From root of your project
 
 # Basic Usage
 
+### Search User by exact match
+
+```javascript
+require("dotenv").config();
+
+const Steam = require("node-steam-api");
+const key = process.env.STEAM_API_KEY;
+const steam = new Steam(key);
+
+const searchUser = async () => {
+  // argument: steam user 
+  return await steam.users.searchUser("the12thchairman");
+};
+```
+
 ### Getting User details by steam id
 
 ```javascript
