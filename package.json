@@ -1,9 +1,13 @@
 {
   "name": "node-steam-api",
   "type": "commonjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node Client wrapper for Steam API",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deivit24/node-steam-api"
+  },
   "keywords": [
     "steam",
     "steamapi",
@@ -16,6 +20,7 @@
   "author": "David Salazar",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "node-fetch": "^3.3.2"
   }
 }
